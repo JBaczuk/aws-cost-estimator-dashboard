@@ -1,10 +1,12 @@
-# AwsCostEstimatorDashboard
+# Aws Cost Estimator Dashboard
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.3.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.  In order to allow CORS for api requests in development mode, run chrome using the following command (OSX, Chrome 49+):  
+
+`$ open -n -a Google\ Chrome --args --disable-web-security --user-data-dir=/tmp/chrome`
 
 ## Code scaffolding
 
